@@ -5,4 +5,6 @@ toc: true
 
 ## foo
 
+## bar
+
 blah
