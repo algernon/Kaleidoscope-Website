@@ -17,6 +17,8 @@ defaults:
       type: posts
     values:
       read_time: true
+      layout: single
+      author_profile: true
 # comments:
 #   provider: "discourse"
 #   discourse:
