@@ -43,3 +43,9 @@ author:
     - label: "Shop"
       icon: "fab fa-fw fa-link"
       url: "https://shop.keyboard.io/"
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
