@@ -6,8 +6,7 @@ site:
   base_url: "/"
   repository: "algernon/Kaleidoscope-Website"
 #  og_image: ...
-permalink: /blog/:categories/:title
-breadcrumbs: true
+permalink: /:categories/:title
 plugins:
   - jekyll-include-cache
 remote_theme: "mmistakes/minimal-mistakes@4.16.0"
@@ -44,9 +43,3 @@ author:
     - label: "Shop"
       icon: "fab fa-fw fa-link"
       url: "https://shop.keyboard.io/"
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
