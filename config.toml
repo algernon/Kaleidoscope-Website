@@ -1,4 +1,4 @@
-baseURL = "http://kaleidoscope.5ms.in/"
+baseURL = "https://kaleidoscope.5ms.in/"
 languageCode = "en-us"
 title = "Kaleidoscope"
 theme = "cupper-hugo-theme"
