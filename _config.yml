@@ -43,3 +43,4 @@ author:
     - label: "Shop"
       icon: "fab fa-fw fa-link"
       url: "https://shop.keyboard.io/"
+include: ["_pages"]
