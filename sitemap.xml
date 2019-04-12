@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://kaleidoscope.5ms.in/</loc>
+    <loc>https://kaleidoscope.5ms.in/</loc>
     <lastmod>2019-04-12T17:46:41+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://kaleidoscope.5ms.in/articles/first-post/</loc>
+    <loc>https://kaleidoscope.5ms.in/articles/first-post/</loc>
     <lastmod>2019-04-12T17:00:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://kaleidoscope.5ms.in/tags/bar/</loc>
-    <lastmod>2019-04-12T17:00:54+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://kaleidoscope.5ms.in/articles/</loc>
-    <lastmod>2019-04-12T17:00:54+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://kaleidoscope.5ms.in/tags/foo/</loc>
+    <loc>https://kaleidoscope.5ms.in/tags/bar/</loc>
     <lastmod>2019-04-12T17:00:54+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://kaleidoscope.5ms.in/tags/</loc>
+    <loc>https://kaleidoscope.5ms.in/articles/</loc>
+    <lastmod>2019-04-12T17:00:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kaleidoscope.5ms.in/tags/foo/</loc>
+    <lastmod>2019-04-12T17:00:54+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kaleidoscope.5ms.in/tags/</loc>
     <lastmod>2019-04-12T17:00:54+02:00</lastmod>
     <priority>0</priority>
   </url>

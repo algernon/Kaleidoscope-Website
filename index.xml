@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kaleidoscope</title>
-    <link>http://kaleidoscope.5ms.in/</link>
+    <link>https://kaleidoscope.5ms.in/</link>
     <description>Recent content on Kaleidoscope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Apr 2019 17:46:41 +0200</lastBuildDate>
     
-	<atom:link href="http://kaleidoscope.5ms.in/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kaleidoscope.5ms.in/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>First Post</title>
-      <link>http://kaleidoscope.5ms.in/articles/first-post/</link>
+      <link>https://kaleidoscope.5ms.in/articles/first-post/</link>
       <pubDate>Fri, 12 Apr 2019 17:00:54 +0200</pubDate>
       
-      <guid>http://kaleidoscope.5ms.in/articles/first-post/</guid>
+      <guid>https://kaleidoscope.5ms.in/articles/first-post/</guid>
       <description>this is a test post</description>
     </item>
     
