@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 
-DIR=$(dirname "$0")
+#DIR=$(dirname "$0")
 
-cd $DIR/..
+#cd $DIR/..
 
 if [[ $(git status -s) ]]
 then
@@ -29,4 +29,4 @@ echo "Copying CNAME"
 cp CNAME public
 
 echo "Updating gh-pages branch"
-cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
+cd ./public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
