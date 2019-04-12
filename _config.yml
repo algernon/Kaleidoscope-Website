@@ -1,11 +1,12 @@
 title: Kaleidoscope
 site:
+  name: Kaleidoscope
   description: "Everything about Kaleidoscope, a firmware for computer input devices"
   url: "http://kaleidoscope.5ms.in"
   base_url: "/"
   repository: "algernon/Kaleidoscope-Website"
 #  og_image: ...
-permalink: /:categories/:title
+permalink: /blog/:categories/:title
 breadcrumbs: true
 plugins:
   - jekyll-include-cache
