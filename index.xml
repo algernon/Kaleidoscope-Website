@@ -12,12 +12,23 @@
     
     
     <item>
-      <title>First Post</title>
-      <link>https://kaleidoscope.5ms.in/articles/first-post/</link>
-      <pubDate>Fri, 12 Apr 2019 17:00:54 +0200</pubDate>
+      <title>Keyboards supported by Kaleidoscope</title>
+      <link>https://kaleidoscope.5ms.in/keyboards/</link>
+      <pubDate>Sat, 13 Apr 2019 08:33:40 +0200</pubDate>
       
-      <guid>https://kaleidoscope.5ms.in/articles/first-post/</guid>
-      <description>this is a test post</description>
+      <guid>https://kaleidoscope.5ms.in/keyboards/</guid>
+      <description>Keyboards powered by Kaleidoscope These keyboards use Kaleidoscope as their official and default firmware.
+Keyboardio Model01 Dygma Raise Keyboards supported by Kaleidoscope Apart from the keyboards that ship with Kaleidoscope as their official firmware, others are supported as well, with Kaleidoscope as an alternative firmware for them.
+Atreus ErgoDox    The firmware supports any keyboard wired like the original ErgoDox, including the ErgoDox EZ. We do not support additional features of the EZ (such as Shine or Glow) yet.</description>
+    </item>
+    
+    <item>
+      <title>Porting to a new keyboard</title>
+      <link>https://kaleidoscope.5ms.in/articles/porting/</link>
+      <pubDate>Sat, 13 Apr 2019 08:33:40 +0200</pubDate>
+      
+      <guid>https://kaleidoscope.5ms.in/articles/porting/</guid>
+      <description>TODO</description>
     </item>
     
   </channel>

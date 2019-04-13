@@ -6,26 +6,26 @@
     <description>Recent content in Tags on Kaleidoscope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Apr 2019 17:00:54 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 13 Apr 2019 08:33:40 +0200</lastBuildDate>
     
 	<atom:link href="https://kaleidoscope.5ms.in/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bar</title>
-      <link>https://kaleidoscope.5ms.in/tags/bar/</link>
-      <pubDate>Fri, 12 Apr 2019 17:00:54 +0200</pubDate>
+      <title>Guide</title>
+      <link>https://kaleidoscope.5ms.in/tags/guide/</link>
+      <pubDate>Sat, 13 Apr 2019 08:33:40 +0200</pubDate>
       
-      <guid>https://kaleidoscope.5ms.in/tags/bar/</guid>
+      <guid>https://kaleidoscope.5ms.in/tags/guide/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Foo</title>
-      <link>https://kaleidoscope.5ms.in/tags/foo/</link>
-      <pubDate>Fri, 12 Apr 2019 17:00:54 +0200</pubDate>
+      <title>Programming</title>
+      <link>https://kaleidoscope.5ms.in/tags/programming/</link>
+      <pubDate>Sat, 13 Apr 2019 08:33:40 +0200</pubDate>
       
-      <guid>https://kaleidoscope.5ms.in/tags/foo/</guid>
+      <guid>https://kaleidoscope.5ms.in/tags/programming/</guid>
       <description></description>
     </item>
     
