@@ -62,4 +62,4 @@ We've made it our mission to make it as easy as possible to add support for new
 keyboards to the firmware. If you don't see your board here, see our [Hardware
 porting guide][guide:porting]!
 
- [guide:porting]: {{<ref "/articles/porting/index.md">}}
+ [guide:porting]: {{<ref "/articles/hardware-porting.md">}}
