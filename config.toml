@@ -15,13 +15,17 @@ theme = "cupper-hugo-theme"
     url = "/"
     weight = 1
   [[menu.nav]]
+    name = "Keyboards"
+    url = "/keyboards/"
+    weight = 2
+  [[menu.nav]]
     name = "Articles"
     url = "/articles/"
-    weight = 2
+    weight = 3
   [[menu.nav]]
     name = "Tags"
     url = "/tags/"
-    weight = 3
+    weight = 4
   [[menu.nav]]
     name = "RSS"
     url = "/index.xml"
