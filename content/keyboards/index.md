@@ -1,6 +1,6 @@
 ---
 date: "2019-04-13T08:33:40+02:00"
-title: "Keyboards supported by Kaleidoscope"
+title: "Keyboards"
 ---
 
 ## Keyboards powered by Kaleidoscope
