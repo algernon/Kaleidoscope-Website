@@ -13,11 +13,11 @@
     
     <item>
       <title>Porting to a new keyboard</title>
-      <link>https://kaleidoscope.5ms.in/articles/porting/</link>
+      <link>https://kaleidoscope.5ms.in/articles/hardware-porting/</link>
       <pubDate>Sat, 13 Apr 2019 08:33:40 +0200</pubDate>
       
-      <guid>https://kaleidoscope.5ms.in/articles/porting/</guid>
-      <description>TODO</description>
+      <guid>https://kaleidoscope.5ms.in/articles/hardware-porting/</guid>
+      <description>The goal of this guide is to show you how to add support for a new keyboard to Kaleidoscope. It doesn&amp;rsquo;t go further than that: this guide doesn&amp;rsquo;t help you maintain an hardware plugin in an external repository, nor does it document everything that makes for a good pull request for a keyboard. It goes far enough to have it working, in a quick and dirty way, anything further than that will be the topic of another guide.</description>
     </item>
     
   </channel>
