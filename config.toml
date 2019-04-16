@@ -8,6 +8,7 @@ theme = "cupper-hugo-theme"
 
 [params]
   dateFormat = "Jan 2, 2006"
+  footer = "[Impressum](/impressum)"
 
 [menu]
   [[menu.nav]]
@@ -30,7 +31,3 @@ theme = "cupper-hugo-theme"
     name = "RSS"
     url = "/index.xml"
     weight = 5
-  [[menu.nav]]
-    name = "Impressum"
-    url = "/impressum"
-    weight = 7

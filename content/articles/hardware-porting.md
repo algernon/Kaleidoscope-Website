@@ -67,11 +67,11 @@ TODO (4x5 numpad)
 namespace kaleidoscope {
 namespace hardware {
 namespace example {
-class NumPad: public [[[ATMegaKeyboard<NumPad>]]] {
-  friend class ATMegaKeyboard<NumPad>;
+class [[[NumPad]]]: public [[[ATMegaKeyboard<NumPad>]]] {
+  [[[friend class ATMegaKeyboard<NumPad>]]];
  public:
   NumPad(void) {
-    mcu_.disableJTAG();
+    [[[mcu_.disableJTAG()]]];
   }
 
   [[[ATMEGA_KEYBOARD_CONFIG]]](
@@ -96,51 +96,44 @@ class NumPad: public [[[ATMegaKeyboard<NumPad>]]] {
 4. TODO
 5. TODO
 6. TODO
+7. TODO
+8. TODO
+9. TODO
 
 #### Keymaps and other helpers
 
 {{< code numbered="true" >}}
-#define KEYMAP(                                                                    \
-      r0c0 ,r0c1 ,r0c2 ,r0c3 ,r0c4 ,r0c5   ,r0c6 ,r0c7 ,r0c8 ,r0c9 ,r0c10 ,r0c11   \
-     ,r1c0 ,r1c1 ,r1c2 ,r1c3 ,r1c4 ,r1c5   ,r1c6 ,r1c7 ,r1c8 ,r1c9 ,r1c10 ,r1c11   \
-     ,r2c0 ,r2c1 ,r2c2 ,r2c3 ,r2c4 ,r2c5   ,r2c6 ,r2c7 ,r2c8 ,r2c9 ,r2c10 ,r2c11   \
-                             ,r3c4 ,r3c5   ,r3c6 ,r3c7                             \
-  )                                                                                \
-  {                                                                                \
-    { r0c0 ,r0c1 ,r0c2 ,r0c3 ,r0c4 ,r0c5 , r0c6 ,r0c7 ,r0c8 ,r0c9 ,r0c10 ,r0c11 }, \
-    { r1c0 ,r1c1 ,r1c2 ,r1c3 ,r1c4 ,r1c5 , r1c6 ,r1c7 ,r1c8 ,r1c9 ,r1c10 ,r1c11 }, \
-    { r2c0 ,r2c1 ,r2c2 ,r2c3 ,r2c4 ,r2c5 , r2c6 ,r2c7 ,r2c8 ,r2c9 ,r2c10 ,r2c11 }, \
-    { XXX  ,XXX  ,XXX  ,XXX  ,r3c4 ,r3c5  ,r3c6 ,r3c7 ,XXX  ,XXX  ,XXX   ,XXX   }  \
-  }
+#define [[[KEYMAP]]](            \
+    r0c0, r0c1, r0c2, r0c3,   \
+    r1c0, r1c1, r1c2, r1c3,   \
+    r2c0, r2c1, r2c2, r2c3,   \
+    r3c0, r3c1, r3c2, r3c3,   \
+    r4c0, r4c1, r4c2, r4c3    \
+)                             \
+{                             \
+  { r0c0, r0c1, r0c2, r0c3 }, \
+  { r1c0, r1c1, r1c2, r1c3 }, \
+  { r2c0, r2c1, r2c2, r2c3 }, \
+  { r3c0, r3c1, r3c2, r3c3 }, \
+  { r4c0, r4c1, r4c2, r4c3 }, \
+}
 
-#define KEYMAP_STACKED(                                                            \
-      r0c0 ,r0c1 ,r0c2 ,r0c3 ,r0c4  ,r0c5                                          \
-     ,r1c0 ,r1c1 ,r1c2 ,r1c3 ,r1c4  ,r1c5                                          \
-     ,r2c0 ,r2c1 ,r2c2 ,r2c3 ,r2c4  ,r2c5                                          \
-                             ,r3c4  ,r3c5                                          \
-                                                                                   \
-     ,r0c6 ,r0c7 ,r0c8 ,r0c9 ,r0c10 ,r0c11                                         \
-     ,r1c6 ,r1c7 ,r1c8 ,r1c9 ,r1c10 ,r1c11                                         \
-     ,r2c6 ,r2c7 ,r2c8 ,r2c9 ,r2c10 ,r2c11                                         \
-     ,r3c6 ,r3c7                                                                   \
-  )                                                                                \
-  {                                                                                \
-    { r0c0 ,r0c1 ,r0c2 ,r0c3 ,r0c4 ,r0c5 , r0c6 ,r0c7 ,r0c8 ,r0c9 ,r0c10 ,r0c11 }, \
-    { r1c0 ,r1c1 ,r1c2 ,r1c3 ,r1c4 ,r1c5 , r1c6 ,r1c7 ,r1c8 ,r1c9 ,r1c10 ,r1c11 }, \
-    { r2c0 ,r2c1 ,r2c2 ,r2c3 ,r2c4 ,r2c5 , r2c6 ,r2c7 ,r2c8 ,r2c9 ,r2c10 ,r2c11 }, \
-    { XXX  ,XXX  ,XXX  ,XXX  ,r3c4 ,r3c5  ,r3c6 ,r3c7 ,XXX  ,XXX  ,XXX   ,XXX   }  \
-  }
+#include "[[[kaleidoscope/hardware/key_indexes.h]]]"
 
-#include "kaleidoscope/hardware/key_indexes.h"
-
-extern kaleidoscope::hardware::example::NumPad &NumPad;
+[[[extern kaleidoscope::hardware::example::NumPad &NumPad;]]]
 {{< /code >}}
+
+1. TODO
+2. TODO
+3. TODO
 
 #### Wrapping up
 
 {{< code numbered="true" >}}
-#endif
+[[[#endif]]]
 {{< /code >}}
+
+1. TODO
 
 ## Making the board available to Arduino
 
