@@ -30,3 +30,7 @@ theme = "cupper-hugo-theme"
     name = "RSS"
     url = "/index.xml"
     weight = 5
+  [[menu.nav]]
+    name = "Impressum"
+    url = "/impressum"
+    weight = 7
